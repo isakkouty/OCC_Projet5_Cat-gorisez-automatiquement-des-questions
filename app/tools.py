@@ -34,8 +34,7 @@ def clean_text(text):
     return res
 
 
-nltk.download('punkt')
-nltk.download('stopwords')
+
 
 custom_stopwords = {
     'value', 'code', 'data', 'column', 'function', 'file',
@@ -74,7 +73,7 @@ def tokenize(text, additional_stopwords=None):
     return res
 
 
-nltk.download('averaged_perceptron_tagger')
+
 
 def filtering_nouns(tokens):
 
@@ -83,7 +82,7 @@ def filtering_nouns(tokens):
     res = [token[0] for token in res if token[1] == 'NN']
     return res
 
-nltk.download('wordnet')
+
 
 def lemmatization(tokens):
 
