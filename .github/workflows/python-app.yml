@@ -28,4 +28,5 @@ jobs:
 
     - name: Run tests
       run: |
+        pip show pytest  # Verify pytest is installed
         pytest

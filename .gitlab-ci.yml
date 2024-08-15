@@ -5,5 +5,7 @@ test:
   image: python:3.9
   stage: test
   script:
+    - pip install --upgrade pip
     - pip install -r requirements.txt
+    - pip show pytest
     - pytest
