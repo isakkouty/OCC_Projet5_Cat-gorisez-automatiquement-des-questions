@@ -1,0 +1,9 @@
+stages:
+  - test
+
+test:
+  image: python:3.9
+  stage: test
+  script:
+    - pip install -r requirements.txt
+    - pytest
