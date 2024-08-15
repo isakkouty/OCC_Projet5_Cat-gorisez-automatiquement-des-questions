@@ -98,9 +98,9 @@ def lemmatization(tokens):
 class SupervisedModel:
 
     def __init__(self):
-        filename_supervised_model = "./models/svm_model.pkl"
+        filename_supervised_model = "./models/SVM_model.pkl"
         filename_mlb_model = "./models/mlb_model.pkl"
-        filename_tfidf_model = "./models/tfidf_model.pkl"
+        filename_tfidf_model = "./models/TFIDF_model.pkl"
         filename_pca_model = "./models/pca_model.pkl"
         filename_vocabulary = "./models/vocabulary.pkl"
 
