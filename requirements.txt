@@ -1,0 +1,10 @@
+pydantic
+lxml
+gensim
+nltk
+html5lib
+beautifulsoup4
+fastapi
+pandas
+scikit_learn
+uvicorn
