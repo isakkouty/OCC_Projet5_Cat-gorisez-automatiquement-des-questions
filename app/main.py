@@ -10,7 +10,7 @@ app = FastAPI(title='API for tags prediction on Stack Overflow posts',
               version='0.0.1')
 
 @app.get("/")
-def root():
+def read_root():
     return {"Welcome to the API. Check /docs for usage"}
 
 class Input(BaseModel):
